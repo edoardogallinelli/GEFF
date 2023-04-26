@@ -1,0 +1,107 @@
+{
+  "utenti": [
+    {
+      "id": 1,
+      "nome": "Mario",
+      "cognome": "Rossi",
+      "username": "m.rossi",
+      "password": "12345678",
+      "prosumer": false,
+      "codiceSmartMeter": 1687568945461,
+      "mail": "m.rossi@gmail.com",
+      "dataIscrizione": "15/09/2022"
+    },
+    {
+      "id": 2,
+      "nome": "Lucia",
+      "cognome": "Grillo",
+      "username": "l.grillo",
+      "password": "12345678",
+      "prosumer": true,
+      "codiceSmartMeter": 1985546778541,
+      "mail": "l.grillo@gmail.com",
+      "dataIscrizione": "15/12/2022"
+    }
+  ],
+  "consumi": [
+    {
+      "utenteid": 1,
+      "mese": "aprile",
+      "cosumiAttuali": 138,
+      "cosuntiAttualiPerGiorno": {
+        "lunedì": 6,
+        "martedì": 7.4,
+        "mercoledì": 4.1,
+        "giovedì": 5.2,
+        "venerdì": 7,
+        "sabato": 8,
+        "domenica": 8.9,
+        "consumiSettimanali": 46.6
+      },
+      "cosumiTotali": 2152,
+      "impattoCO2": -1666,
+      "costoMedioKwh": 0.15,
+      "energiaDaReteNazionaleMensile": 37,
+      "energiaDaComunitaMensile": 101
+    },
+    {
+      "utenteid": 2,
+      "mese": "aprile",
+      "cosumiAttuali": 138,
+      "cosuntiAttualiPerGiorno": {
+        "lunedì": 6,
+        "martedì": 7.4,
+        "mercoledì": 4.1,
+        "giovedì": 5.2,
+        "venerdì": 7,
+        "sabato": 8,
+        "domenica": 8.9,
+        "consumiSettimanali": 46.6
+      },
+      "cosumiTotali": 2152,
+      "impattoCO2": -1666,
+      "costoMedioKwh": 0.15,
+      "energiaDaReteNazionaleMensile": 37,
+      "energiaDaComunitaMensile": 101
+    }
+  ],
+  "aggregatore" : [
+    {
+      "id": 1 ,
+      "nome": "Roma Centrale",
+      "capacitaMassima": 3000,
+      "capienzaAttuale": 1980
+    },
+    {
+      "id": 2 ,
+      "nome": "Roma Est",
+      "capacitaMassima": 9000,
+      "capienzaAttuale": 6703
+    }
+  ],
+  "produttori" : [
+    {
+      "id": 1 ,
+      "nome": "Solar Power",
+      "tipo": "Pannelli fotovoltaici",
+      "estensioneMQ": 1000,
+      "energiaMediaProdottaMese": 6250,
+      "mediaRadiazioneSolare": 5,
+      "mediaVento": null,
+      "velocitaCutIn": null,
+      "mediaEfficienza" : "20%"
+    },
+    {
+      "id": 2,
+      "nome": "Wind Power",
+      "tipo": "Pale Eoliche",
+      "estensioneMQ": 1000,
+      "energiaMediaProdottaMese": 6250,
+      "mediaRadiazioneSolare": 5,
+      "mediaVento": "24km/h",
+      "velocitaCutIn": "12 km/h",
+      "mediaEfficienza" : "20%"
+    }
+
+  ]
+}
