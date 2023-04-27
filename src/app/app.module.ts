@@ -46,10 +46,16 @@ import { HttpClientModule } from '@angular/common/http';
 
 //Moduli componenti interni
 import { HomeComponent } from './pages/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeroComponent } from './components/hero/hero.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent,
+    FooterComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
