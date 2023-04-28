@@ -1,0 +1,45 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #50bfbb;
+    height: 200px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+}
+.flexbox {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+.item {
+    width: auto;
+    margin: auto;
+    height: 50px;
+}
+.separate {
+    margin-top: 1%;
+    width: auto;
+    background-color: transparent;
+}
+.line {
+    background-color: whitesmoke;
+    height: 1px;
+}
+.paragraph {
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 1%;
+    color: whitesmoke;
+}
+.a {
+    color: whitesmoke;
+}
+.a:hover {
+    transform: scale(2,2);
+    color: black;
+}
