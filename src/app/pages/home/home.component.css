@@ -1,8 +1,23 @@
-h1{
-font-weight: 900;
+
+.card{
+  box-shadow: 0 4px 15px 0 rgba(0, 255, 140, 0.2);
+  margin-right: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+.card title{
+    font-family:'Poppins', sans-serif
+    color rgb(5, 251, 210)
+    align justify
+
+ }
+
+.column{
+  background-image: src="../../../assets/images/35783239_8311663.png";
 }
 
-.textColor {
-  color: blueviolet;
-  background-color: green;
+.image{
+  height: 335px;
+
 }
+
