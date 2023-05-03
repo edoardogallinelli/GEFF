@@ -51,6 +51,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
+import { TerzaSezioneHomeComponent } from './components/terza-sezione-home/terza-sezione-home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,7 +60,8 @@ import { RegistrationComponent } from './pages/registration/registration.compone
     FooterComponent,
     HeroComponent,
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    TerzaSezioneHomeComponent
   ],
   imports: [
     BrowserModule,
