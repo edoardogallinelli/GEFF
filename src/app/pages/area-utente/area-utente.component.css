@@ -1,0 +1,12 @@
+app-menu-area-utente {
+    width: 200px;
+}
+
+:host {
+    display: flex;
+}
+
+.container {
+    flex-grow: 1;
+}
+
