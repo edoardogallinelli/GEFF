@@ -66,7 +66,7 @@ import { PanoramicaFocusComponent } from './components/panoramica-focus/panorami
     RegistrationComponent,
     TerzaSezioneHomeComponent,
     AreaUtenteComponent,
-    PanoramicaPersonaleComponent
+    PanoramicaPersonaleComponent,
     PanoramicaFocusComponent
   ],
   imports: [
