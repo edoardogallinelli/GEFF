@@ -53,6 +53,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
 import { TerzaSezioneHomeComponent } from './components/terza-sezione-home/terza-sezione-home.component';
 import { AreaUtenteComponent } from './pages/area-utente/area-utente.component';
+import { PanoramicaFocusComponent } from './components/panoramica-focus/panoramica-focus.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,7 +64,8 @@ import { AreaUtenteComponent } from './pages/area-utente/area-utente.component';
     LoginComponent,
     RegistrationComponent,
     TerzaSezioneHomeComponent,
-    AreaUtenteComponent
+    AreaUtenteComponent,
+    PanoramicaFocusComponent
   ],
   imports: [
     BrowserModule,
