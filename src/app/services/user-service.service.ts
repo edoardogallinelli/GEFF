@@ -51,4 +51,8 @@ export class UserService {
     this.loadUser();
   }
 
+  logout(){ //pulisce il localstorag
+    localStorage.clear()
+  }
+
 }
