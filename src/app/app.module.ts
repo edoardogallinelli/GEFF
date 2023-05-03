@@ -53,6 +53,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
 import { TerzaSezioneHomeComponent } from './components/terza-sezione-home/terza-sezione-home.component';
 import { AreaUtenteComponent } from './pages/area-utente/area-utente.component';
+import { PanoramicaPersonaleComponent } from './components/panoramica-personale/panoramica-personale.component';
 import { PanoramicaFocusComponent } from './components/panoramica-focus/panoramica-focus.component';
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { PanoramicaFocusComponent } from './components/panoramica-focus/panorami
     RegistrationComponent,
     TerzaSezioneHomeComponent,
     AreaUtenteComponent,
+    PanoramicaPersonaleComponent,
     PanoramicaFocusComponent
   ],
   imports: [
