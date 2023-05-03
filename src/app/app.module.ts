@@ -54,6 +54,7 @@ import { RegistrationComponent } from './pages/registration/registration.compone
 import { TerzaSezioneHomeComponent } from './components/terza-sezione-home/terza-sezione-home.component';
 import { AreaUtenteComponent } from './pages/area-utente/area-utente.component';
 import { PanoramicaPersonaleComponent } from './components/panoramica-personale/panoramica-personale.component';
+import { PanoramicaFocusComponent } from './components/panoramica-focus/panoramica-focus.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -66,6 +67,7 @@ import { PanoramicaPersonaleComponent } from './components/panoramica-personale/
     TerzaSezioneHomeComponent,
     AreaUtenteComponent,
     PanoramicaPersonaleComponent
+    PanoramicaFocusComponent
   ],
   imports: [
     BrowserModule,
