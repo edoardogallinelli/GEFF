@@ -42,3 +42,7 @@
     transform: scale(2,2);
     color: black;
 }
+
+svg {
+    margin-top: 15px;
+}

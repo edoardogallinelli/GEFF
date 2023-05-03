@@ -2,21 +2,33 @@ body {
     font-size: 20px;
     font-family: Arial;
 }
+
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #50BFBB;
-opacity: 0.5;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #50BFBB;
+    /* opacity: 0.5; */
 }
+
 li {
-float: left;
+    float: left;
 }
+
 li a {
-display: block;
-color: #EEF3F2;
-text-align: center;
-padding: 20px 20px;
-text-decoration: none;
+    display: block;
+    color: #EEF3F2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #50BFBB;
+    /* opacity: 0.5; */
 }
