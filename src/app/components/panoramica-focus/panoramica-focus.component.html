@@ -1,26 +1,29 @@
 <div class="focus">
-    <div class="card flex justify-content-center" style="width: 500px;">
-        <h1 class="card-title">Smart Grid</h1>
-        <p-chart type="doughnut" [data]="data" [options]="options"></p-chart>
-    </div>
-
-    <div class="realtime-costs">
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h1 class="card-title">Spese Real-time</h1>
-                    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="graph">
+                    <h1 class="card-title">Consumi</h1>
+                    <p-chart type="doughnut" width="400" height="280" [data]="data" [options]="options"></p-chart>
                 </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h1 class="card-title">Energia disponibile</h1>
-                    </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h1 class="card-title">Spesa Real-time</h1>
+                <p class="card-text">{{costo}}€ kW</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h1 class="card-title">Stato di carica</h1>
+                <div class="battery">
+                    <div class="battery-charge"></div>
                 </div>
-                
-            </div> 
+                <div class="per">
+                    <p>{{percentuale}}%</p>
+                </div>
+            </div>
         </div>
     </div>
-
 </div> 

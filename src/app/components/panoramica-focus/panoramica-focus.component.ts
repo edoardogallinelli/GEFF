@@ -6,34 +6,35 @@ import { Component } from '@angular/core';
   styleUrls: ['./panoramica-focus.component.css']
 })
 export class PanoramicaFocusComponent {
-  data: any;
+    data: any;
+    costo: any[]=["50"];
+    options: any;
+    percentuale: any[]=["100"];
+    ngOnInit() {
+        this.data = {
+            labels: ['Rete propria', 'Rete della comunità', 'Rete nazionale'],
+            datasets: [
+            {
+                data: [300, 50, 100],
+                backgroundColor: ["#18A6E0","#FFC701","#2ECC71"],
+                hoverBackgroundColor: ["#000","#000","#000"]
+            }
+            ]
+        };
+        this.options = {
+            mantainAspectRatio: false,
+            cutout: '50%',
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "black"
+                    }
+                }
+            }
+        };
+    }
 
-  options: any;
-
-  ngOnInit() {
-
-      this.data = {
-          labels: ['A', 'B', 'C'],
-          datasets: [
-              {
-                  data: [300, 50, 100],
-                  backgroundColor: ["#f00","#0f0","#00f"],
-                  hoverBackgroundColor: ["#000","#000","#000"]
-              }
-          ]
-      };
-
-
-      this.options = {
-          cutout: '60%',
-          plugins: {
-              legend: {
-                  labels: {
-                      color: "black"
-                  }
-              }
-          }
-      };
-  }
-
+    
 }
+
+
