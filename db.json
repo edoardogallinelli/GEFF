@@ -25,9 +25,45 @@
       "fotoProfilo": "https://st2.depositphotos.com/1003989/44419/i/600/depositphotos_444196500-stock-photo-isolated-female-person-portrait-smiling.jpg"
     }
   ],
+  "consumiMensili":[
+    {
+      "utenteId":1,
+      "data":[300, 80]
+    },
+    {
+      "utenteId":2,
+      "data":[300, 80, 60]
+    }
+  ],
+  "consumiSettimanali":[
+    {
+      "utenteId":1,
+      "energiaRedistribuita":[],
+      "energiaProdotta":[],
+      "energiaConsumata":[5, 9, 5, 7, 8, 4, 11]
+    },
+    {
+      "utenteId":2,
+      "energiaProdotta":[20, 20, 30, 10, 15, 17, 22],
+      "energiaRedistribuita":[15, 11, 25, 3, 7, 13, 11],
+      "energiaConsumata":[5, 9, 5, 7, 8, 4, 11]
+    }
+  ],
+  "spesaRT":[
+    {
+      "utenteId": 1,
+      "kwhConsumati":125,
+      "spesaStimata":43
+    },
+    {
+      "utenteId": 2,
+      "kwhConsumati":221,
+      "spesaStimata":78
+    }
+  ],
   "consumi": [
     {
-      "utenteid": 1,
+      "utenteId": 1,
       "mese": "aprile",
       "cosumiAttuali": 138,
       "cosuntiAttualiPerGiorno": {
@@ -47,7 +83,7 @@
       "energiaDaComunitaMensile": 101
     },
     {
-      "utenteid": 2,
+      "utenteId": 2,
       "mese": "aprile",
       "cosumiAttuali": 138,
       "cosuntiAttualiPerGiorno": {
@@ -71,9 +107,9 @@
     {
       "id": 1,
       "nome": "Roma Centrale",
-      "capacitaMassima": 3000,
-      "capienzaAttuale": 2250,
-      "batteria": "76%"
+      "capienzaMassima": 3000,
+      "residuoPercentuale": 76,
+      "residuoKilowattOra":2250
     }
   ],
   "produttori": [
