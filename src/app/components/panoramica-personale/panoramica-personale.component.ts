@@ -52,7 +52,6 @@ export class PanoramicaPersonaleComponent {
           tension: 0.4,
           borderColor: '#C8E9E9'
         },
-
         {
           label: 'Energia Ridistribuita',
           data: [15, 11, 25, 3, 7, 13, 11],
