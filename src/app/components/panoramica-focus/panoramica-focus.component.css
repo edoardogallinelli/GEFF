@@ -1,14 +1,10 @@
 .focus{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 *{
     box-sizing: border-box;
 }
-.column {
-    float: left;
-    width: 33%;
-    padding: 0 15px 0 0;
-}
+
 .row:after {
     content: "";
     display: table;
@@ -68,10 +64,8 @@
 .per p {
     color:#2A2A2A;
     font-size: 200%;
+    font-weight: 600;
     width: 100%;
-}
-.card graph{
-    size: 20px;
 }
 .battery{
     rotate: 180deg;
@@ -102,8 +96,13 @@
 .battery-charge {
     position: absolute;
     height: 150px;
-    width: 80px;
+    width: 89px;
     top: 0px;
-    margin: 9px;
+    margin: 5px;
     border-radius: 5px;
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 35px;
 }
