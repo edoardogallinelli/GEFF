@@ -103,5 +103,12 @@
       "mediaEfficienza" : "20%"
     }
 
+  ],
+  "meteo": [
+    {
+      "localita":"rome",
+      "meteo":"soleggiato",
+      "icona":"https://cdn-icons-png.flaticon.com/512/3222/3222691.png"
+    }
   ]
 }

@@ -1,0 +1,12 @@
+.mat-card {
+    /* background-color: rgb(80, 191, 187); */
+    box-shadow: 0 10px 15px 0 rgb(255, 199, 1);
+    height: 302px;
+}
+
+.UrlIconaMeteo{
+    height: 500px;
+    width: 500px;
+
+
+}
