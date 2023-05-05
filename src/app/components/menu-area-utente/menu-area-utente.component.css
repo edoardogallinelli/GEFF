@@ -27,7 +27,23 @@ body {
     font-size: 15px;
     color: #EEF3F2;
     display: block;
+    text-align: center;
   }
   .sidenav img {
     border-radius: 50%;
+  }
+  .terzaparte{
+   margin-top:200px; 
+  }
+  .secondaparte{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .sidenav span {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #EEF3F2;
+    display: block;
+    text-align: center;
   }
