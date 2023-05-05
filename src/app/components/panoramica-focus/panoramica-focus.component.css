@@ -48,7 +48,7 @@
 .card graph{
     size: 20px;
 }
-.battery{
+.battery-low-medium-high{
     rotate: 180deg;
     height: 180px;
     width: 110px;
@@ -71,14 +71,15 @@
     top: 170px;
     left: -20px;
     right: -20px;
-    border-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 .battery-charge {
     position: absolute;
     height: 150px;
     width: 80px;
-    background-color: #14e00d;
     top: 0px;
+    background-color: rgb(15, 249, 15);
     margin: 9px;
     border-radius: 5px;
 }
