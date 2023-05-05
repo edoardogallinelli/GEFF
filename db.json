@@ -70,13 +70,8 @@
       "id": 1 ,
       "nome": "Roma Centrale",
       "capacitaMassima": 3000,
-      "capienzaAttuale": 1980
-    },
-    {
-      "id": 2 ,
-      "nome": "Roma Est",
-      "capacitaMassima": 9000,
-      "capienzaAttuale": 6703
+      "capienzaAttuale": 2250,
+      "batteria": "76%"
     }
   ],
   "produttori" : [
