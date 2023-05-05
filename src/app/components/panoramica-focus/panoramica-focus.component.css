@@ -101,8 +101,8 @@
     margin: 5px;
     border-radius: 5px;
 }
-h1 {
+.title{
     font-size: 80px;
-    text-align: center;
-    margin-bottom: 35px;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
 }
