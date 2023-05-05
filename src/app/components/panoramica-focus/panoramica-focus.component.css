@@ -1,0 +1,85 @@
+.focus{
+    margin-top: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 15px 0 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    border: 0px;
+    border-radius: 15px 15px 15px 15px;
+    width: auto;
+    min-height: 400px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.card img {
+    width: 150px;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column p {
+    font-size: 500%;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.card h1 {
+    font-size: 35px;
+}
+.per p {
+    font-size: 200%;
+    width: 100%;
+}
+.card graph{
+    size: 20px;
+}
+.battery-low-medium-high{
+    rotate: 180deg;
+    height: 180px;
+    width: 110px;
+    border: 6px solid #000000;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+}
+.battery:before{
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 20px;
+    width: 55px;
+    background-color: #000000;
+    top: 170px;
+    left: -20px;
+    right: -20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.battery-charge {
+    position: absolute;
+    height: 150px;
+    width: 80px;
+    top: 0px;
+    background-color: rgb(15, 249, 15);
+    margin: 9px;
+    border-radius: 5px;
+}

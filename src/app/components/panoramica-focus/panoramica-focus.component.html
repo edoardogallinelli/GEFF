@@ -1,1 +1,35 @@
-<p>panoramica-focus works!</p>
+<div class="focus">
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="graph">
+                    <h1 class="card-title">Consumi</h1>
+                    <p-chart type="doughnut" width="400" height="280" [data]="data" [options]="options"></p-chart>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h1 class="card-title">Spesa Real-time</h1>
+                <p class="card-text">{{costo}}€ kW</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h1 class="card-title">Stato di carica</h1>
+                <div class="battery-low">
+                    <div [style.height.%]="percentuale" class="battery-charge"></div>
+                </div>
+                <div class="battery-medium">
+                    <div [style.height.%]="percentuale" class="battery-charge"></div>
+                </div>
+                <div class="battery-high">
+                    <div [style.height.%]="percentuale" class="battery-charge"></div>
+                </div>
+                <div class="per">
+                    <p>{{percentuale}}%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

@@ -30,7 +30,6 @@ export class LoginComponent {
     this.mail = this.formAccesso.value.mail;
     this.password = this.formAccesso.value.password;
     await this.userService.login(this.mail, this.password);
-    debugger
     if (this.userService.getUser()) {
       this.router.navigateByUrl('area-utente')
     } else {
