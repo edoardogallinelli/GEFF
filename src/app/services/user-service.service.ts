@@ -17,6 +17,7 @@ export class UserService {
 
   private userData: any;
 
+  
   async login(mail: string, password: string) {
     let response : any = await this.http.get(`http://localhost:3000/utenti?mail=${mail}&password=${password}`).toPromise()
 
@@ -52,7 +53,9 @@ export class UserService {
   }
 
   logout(){ //pulisce il localstorag
-    localStorage.clear()
+    this.setUser(null);
+    console.log('Storage pulito correttamente');
+    
   }
 
 }
