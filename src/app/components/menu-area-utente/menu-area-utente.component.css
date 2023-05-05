@@ -9,7 +9,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #18A6E0;
+    background-color: #50bfbb;
     overflow-x: hidden;
     padding-top: 18px;
   }
@@ -17,14 +17,17 @@ body {
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     color: #EEF3F2;
     display: block;
   }
   .sidenav p {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 15px;
     color: #EEF3F2;
     display: block;
+  }
+  .sidenav img {
+    border-radius: 50%;
   }
