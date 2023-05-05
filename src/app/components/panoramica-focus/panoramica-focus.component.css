@@ -15,6 +15,7 @@
     clear: both;
 }
 .card {
+    color:#2A2A2A;
     border: 0px;
     border-radius: 15px 15px 15px 15px;
     width: auto;
@@ -29,8 +30,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-.column p {
-    font-size: 500%;
+.column p{
+    color:#2A2A2A;
+    font-size:400%;
     line-height: 1;
     margin: 0;
     position: absolute;
@@ -38,21 +40,44 @@
     left: 50%;
     transform: translate(-50%, -50%)
 }
+.centered {
+    transform: translate(-50%, -50%);
+                top: 50%;
+                position: absolute;
+                left: 50%;
+}
+.card-text-costo{
+    color:#2A2A2A;
+    font-size:400%;
+    line-height: 1;
+}
+.card-text-kw{
+    color:#2A2A2A;
+    font-size:400%;
+    line-height: 1;
+    white-space: nowrap;
+}
+.column b{
+    color:#7b7f81;
+    font-size: 170%;
+}
 .card h1 {
+    color:#2A2A2A;
     font-size: 35px;
 }
 .per p {
+    color:#2A2A2A;
     font-size: 200%;
     width: 100%;
 }
 .card graph{
     size: 20px;
 }
-.battery-low-medium-high{
+.battery{
     rotate: 180deg;
     height: 180px;
     width: 110px;
-    border: 6px solid #000000;
+    border: 6px solid #2A2A2A;
     position: absolute;
     margin: auto;
     top: 0;
@@ -67,7 +92,7 @@
     margin: auto;
     height: 20px;
     width: 55px;
-    background-color: #000000;
+    background-color:#2A2A2A;
     top: 170px;
     left: -20px;
     right: -20px;
@@ -79,7 +104,6 @@
     height: 150px;
     width: 80px;
     top: 0px;
-    background-color: rgb(15, 249, 15);
     margin: 9px;
     border-radius: 5px;
 }
