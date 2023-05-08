@@ -13,6 +13,7 @@ export class LoginComponent {
     mail: new FormControl(),
     password: new FormControl()
   });
+  hide = true;
   isLinear = false;
 
   constructor(private _formBuilder: FormBuilder, private userService: UserService, private router : Router) { }

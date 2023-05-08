@@ -5,13 +5,15 @@
             <img src="../../../assets/images/icon2.png" alt="">
         </div>
         <form [formGroup]="formAccesso">
-          <mat-form-field appearance="fill">
+          <mat-form-field>
             <mat-label>Email</mat-label>
-            <input matInput formControlName="mail">
+            <input matInput formControlName="E-mail">
         </mat-form-field>
-        <mat-form-field appearance="fill">
+        <mat-form-field>
           <mat-label>Password</mat-label>
-          <input matInput formControlName="password" required>
+          <input matInput placeholder="Password" [type]=" hide ?'password' : 'text' "
+          formControlName="password" required>
+          <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
         </mat-form-field>
         </form>
     </mat-card-content>
