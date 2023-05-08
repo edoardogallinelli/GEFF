@@ -5,11 +5,11 @@
             <img src="../../../assets/images/icon2.png" alt="">
         </div>
         <form [formGroup]="formAccesso">
-          <mat-form-field>
+          <mat-form-field appearance="fill">
             <mat-label>Email</mat-label>
-            <input matInput formControlName="E-mail">
+            <input matInput formControlName="mail">
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field appearance="fill">
           <mat-label>Password</mat-label>
           <input matInput placeholder="Password" [type]=" hide ?'password' : 'text' "
           formControlName="password" required>
