@@ -9,8 +9,8 @@
     width: 100%;
 }
 .mat-card mat-icon{
-    font-size: 140%;
-    line-height: 0.8;
+    font-size: 110%;
+    line-height: 0.9;
 }
 
 .mat-card {
@@ -22,6 +22,7 @@
 }
 .mat-card-content{
     font-size: 22px;
+    line-height: 2;
 
 }
 .mat-card-content img{
