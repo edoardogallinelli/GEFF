@@ -22,7 +22,7 @@ export class PanorimicaComunitaComponent {
                 {
                     type: 'bar',
                     label: 'Prodotto dalla comunità',
-                    backgroundColor: '#FFC701',
+                    backgroundColor: '#eca147',
                     data: [144, 142, 137, 136, 135, 44]
                 },
                 {

@@ -16,22 +16,22 @@ body {
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
     color: #EEF3F2;
     display: block;
   }
   .sidenav p {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     color: #EEF3F2;
     display: block;
     text-align: center;
   }
   .profilepic {
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 15px;
   }
   .terzaparte{
@@ -52,11 +52,8 @@ body {
   .sidenav span {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     color: #EEF3F2;
     display: block;
     text-align: center;
-  }
-  .iframe{
-    background-color: white;
   }

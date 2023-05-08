@@ -25,8 +25,8 @@ export class PanoramicaFocusComponent {
             datasets: [
                 {
                     data: [300, 80, 60],
-                    backgroundColor: ["#18A6E0", "#FFC701", "#2ECC71"],
-                    hoverBackgroundColor: ["#056C91", "#D7A804", "#168747"]
+                    backgroundColor: ["#18A6E0", "#eca147", "#2ECC71"],
+                    hoverBackgroundColor: ["#056C91", "#b67030", "#168747"]
                 }
             ]
         };

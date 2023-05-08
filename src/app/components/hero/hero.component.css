@@ -18,7 +18,7 @@
     width: 65%;
 }
 .hero-text {
-    color: #50BFBB;
+    color: #2A2A2A;
     margin: 18px;
     text-align: justify;
 }
@@ -29,6 +29,7 @@
     font-size: 150px;
 }
 .hero-text h2{
+    color: #50BFBB;
     font-size: 50px;
     line-height: 1.2;
 }
@@ -37,10 +38,10 @@
     line-height: 1.2;
 }
 .hero-button button{
-    margin-top: 30px;
-    font-size: 24px;
+    margin-bottom: 45px;
+    font-size: 26px;
     width: 100%;
-    height: 60px;
-    color: #7b7f81;
-    box-shadow: rgba(255, 199, 1, 0.4) -5px 5px, rgba(255, 199, 1, 0.3) -10px 10px, rgba(255, 199, 1, 0.2) -15px 15px, rgba(255, 199, 1, 0.1) -20px 20px, rgba(255, 199, 1, 0.05) -25px 25px;
+    height: 45px;
+    background-color:#50BFBB;
+    color: #f9f9f9;
 }
