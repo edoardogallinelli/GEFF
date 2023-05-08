@@ -7,13 +7,11 @@
     font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
 }
 .flexbox {
-    margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     text-align: center;
-
 }
 .item {
     width: auto;

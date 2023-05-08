@@ -14,8 +14,13 @@
     height: 820px;
     margin-bottom: 35px;
 }
+.mat-card mat-icon{
+    font-size: 110%;
+    line-height: 0.9;}
+
 .mat-card-content{
     font-size: 22px;
+    line-height: 2;
 }
 .mat-card-content img{
     width: 60%;

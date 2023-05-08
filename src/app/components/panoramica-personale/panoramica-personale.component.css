@@ -1,12 +1,20 @@
 .mat-card {
-    /* background-color: rgb(80, 191, 187); */
-    box-shadow: 0 10px 15px 0 rgb(255, 199, 1);
+    background-color: #f1f1f1;
     height: 302px;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: none;
 }
 
 .UrlIconaMeteo{
     height: 500px;
     width: 500px;
-
-
+}
+h1 {
+    font-family: Poppins,sans-serif;
+    text-align: center;
+}
+img {
+    width: 48%;
+    margin-bottom: 10px;
 }
