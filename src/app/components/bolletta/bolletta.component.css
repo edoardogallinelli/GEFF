@@ -1,0 +1,30 @@
+.title h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.bolletta table{
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    padding: 10px;
+}
+table{
+}
+table th {
+    padding: 15px;
+    background-color: rgb(219, 219, 219);
+}
+table td{
+    padding: 12px;
+    background-color: rgb(241, 241, 241);
+}
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+.button button{
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+}

@@ -58,6 +58,7 @@ import { PanoramicaFocusComponent } from './components/panoramica-focus/panorami
 import { MenuAreaUtenteComponent } from './components/menu-area-utente/menu-area-utente.component';
 import { PanorimicaComunitaComponent } from './components/panorimica-comunita/panorimica-comunita.component';
 import { ContrattoComponent } from './components/contratto/contratto.component';
+import { BollettaComponent } from './components/bolletta/bolletta.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -73,7 +74,8 @@ import { ContrattoComponent } from './components/contratto/contratto.component';
     PanoramicaFocusComponent,
     MenuAreaUtenteComponent,
     PanorimicaComunitaComponent,
-    ContrattoComponent
+    ContrattoComponent,
+    BollettaComponent
   ],
   imports: [
     BrowserModule,
