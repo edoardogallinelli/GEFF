@@ -1,0 +1,20 @@
+<div class="focus">
+    <div class="row">
+        <div class="column col-4">
+            <div class="card">
+                <div class="graph">
+                    <h1 class="card-title">CO2 Risparmiata</h1>
+                    <div class="centered">
+                        <div class="card-text-co2"><b>{{co2}}</b></div>
+                        <div class="card-text-kg">kg</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column col-8">
+            <div class="card">
+                <p-chart type="bar" [data]="data" [options]="options"></p-chart>
+            </div>
+        </div>
+    </div>
+</div>

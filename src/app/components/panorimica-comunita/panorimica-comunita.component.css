@@ -1,0 +1,82 @@
+.focus{
+    margin-top: 25px;
+}
+*{
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    color:#2A2A2A;
+    border: 0px;
+    border-radius: 15px 15px 15px 15px;
+    width: auto;
+    height: 400px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.card img {
+    width: 150px;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column p{
+    color:#2A2A2A;
+    font-size:400%;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.centered {
+    transform: translate(-50%, -50%);
+                top: 50%;
+                position: absolute;
+                left: 50%;
+}
+.card-text-co2{
+    color:#2A2A2A;
+    font-size:400%;
+    line-height: 1;
+}
+.card-text-kg{
+    color:#2A2A2A;
+    font-size:400%;
+    line-height: 1;
+    white-space: nowrap;
+}
+.column b{
+    color:#7b7f81;
+    font-size: 170%;
+}
+.card h1 {
+    color:#2A2A2A;
+    font-size: 35px;
+}
+.per p {
+    color:#2A2A2A;
+    font-size: 200%;
+    font-weight: 600;
+    width: 100%;
+}
+.title{
+    font-size: 80px;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+.card p-chart{
+    font-weight: 200px;
+    width: 100%;
+}
+.card-title2 {
+    margin-top: -14px;
+    margin-bottom: -10px;
+}
