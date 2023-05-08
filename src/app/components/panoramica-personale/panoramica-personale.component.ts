@@ -12,6 +12,7 @@ export class PanoramicaPersonaleComponent {
   data: any;
   options: any;
   urlIconaMeteo: string = "";
+  efficienzaSolare: string= "";
 
   constructor(
     private http: HttpClient
@@ -30,10 +31,13 @@ export class PanoramicaPersonaleComponent {
 
         if (response[0].meteo == "soleggiato") {
           this.urlIconaMeteo = "../../../assets/images/soleggiato.png"
+          this.efficienzaSolare= " Il tuo pannello ha un'efficienza del 25%"
         } else if (response[0].meteo == "nuvoloso") {
           this.urlIconaMeteo = "../assets/images/nuvoloso.png"
+          this.efficienzaSolare="Il tuo pannello ha un'efficenza del 15%"
         } else if (response[0].meteo == "piovoso") {
           this.urlIconaMeteo = "../src/assets/images/piovoso.png"
+          this.efficienzaSolare="Il tuo pannello ha un'efficenza del 10%"
         }
       });
 
@@ -89,7 +93,7 @@ export class PanoramicaPersonaleComponent {
             color: textColorSecondary
           },
           grid: {
-            color: "none !important"
+            color: "white"
           }
         },
         y: {
@@ -97,7 +101,7 @@ export class PanoramicaPersonaleComponent {
             color: textColorSecondary
           },
           grid: {
-            color: "none !important"
+            color: "white"
           },
           scaleLabel: {
             display: true,
