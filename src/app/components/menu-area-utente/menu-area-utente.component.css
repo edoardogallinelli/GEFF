@@ -1,59 +1,63 @@
 body {
-    font-family: 'Poppins', sans-serif;
-  }
+  font-family: "Poppins", sans-serif;
+}
 
-  .sidenav {
-    height: 100%;
-    width: 190px;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    background-color: #50bfbb;
-    overflow-x: hidden;
-    padding-top: 18px;
-  }
+.sidenav {
+  height: 100%;
+  width: 190px;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #50bfbb;
+  overflow-x: hidden;
+  padding-top: 18px;
+}
 
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 23px;
-    color: #EEF3F2;
-    display: block;
-  }
-  .sidenav p {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #EEF3F2;
-    display: block;
-    text-align: center;
-  }
-  .profilepic {
-    object-fit: cover;
-    width: 120px;
-    height: 120px;
-    border-radius: 15px;
-  }
-  .terzaparte{
-   margin-top:200px;
-   text-align: center;
-  }
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  color: #eef3f2;
+  display: block;
+}
+.sidenav p {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #eef3f2;
+  display: block;
+  text-align: center;
+}
+.profilepic {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+}
+.terzaparte {
+  margin-top: 200px;
+  text-align: center;
+}
 
-  .terzaparte button {
-    border-radius: 50%;
-    padding: 10px;
-    background-color: #46a5a1;
-  }
+.terzaparte button {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #46a5a1;
+}
 
-  .secondaparte{
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  .sidenav span {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #EEF3F2;
-    display: block;
-    text-align: center;
-  }
+.secondaparte {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.sidenav span {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #eef3f2;
+  display: block;
+  text-align: center;
+}
+.fixed {
+  position: fixed;
+  width: inherit;
+}
