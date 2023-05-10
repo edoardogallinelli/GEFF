@@ -1,34 +1,58 @@
-<div class="anchor" id="panoramica"> <p> </p></div>
-<div class="focus" >
-    <h2 class="title">Panoramica</h2>
-    <div class="row">
-        <div class="column col-4">
-            <div class="card">
-                <div class="graph">
-                    <h1 class="card-title">Consumi</h1>
-                    <p-chart type="doughnut" width="400" height="280" [data]="data" [options]="options"></p-chart>
-                </div>
-            </div>
+<div class="anchor" id="panoramica">
+  <p> </p>
+</div>
+<div class="focus">
+  <h2 class="title">Panoramica</h2>
+  <div class="row">
+    <ng-container *ngIf="isProsumer">
+      <div class="column col-4">
+        <div class="card">
+          <div class="graph">
+            <h1 class="card-title">Consumi</h1>
+            <p-chart type="doughnut" width="400" height="280" [data]="data" [options]="options"></p-chart>
+          </div>
         </div>
-        <div class="column col-4">
-            <div class="card">
-                <h1 class="card-title">Spesa Real-time</h1>
-                <div class="centered">
-                    <div class="card-text-costo"><b>{{costo}}</b>€</div>
-                    <div class="card-text-kw">115 kW</div>
-                </div>
-            </div>
+      </div>
+      <div class="column col-4">
+        <div class="card">
+          <h1 class="card-title">Spesa Real-time</h1>
+          <div class="centered">
+            <div class="card-text-costo"><b>{{costo}}</b>€</div>
+            <div class="card-text-kw">115 kW</div>
+          </div>
         </div>
-        <div class="column col-4">
-            <div class="card">
-                <h1 class="card-title">Stato di carica</h1>
-                <div class="battery">
-                    <div [style.height.%]="percentuale" [style.backgroundColor]="colore" class="battery-charge"></div>
-                </div>
-                <div class="per">
-                    <p>{{percentuale}}%</p>
-                </div>
-            </div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="!isProsumer">
+      <div class="column col-4">
+        <div class="card">
+          <div class="graph">
+            <h1 class="card-title">Consumi</h1>
+            <p-chart type="doughnut" width="400" height="280" [data]="dataConsumer" [options]="options"></p-chart>
+          </div>
         </div>
+      </div>
+      <div class="column col-4">
+        <div class="card">
+          <h1 class="card-title">Spesa Real-time</h1>
+          <div class="centered">
+            <div class="card-text-costo"><b>{{costoCosumer}}</b>€</div>
+            <div class="card-text-kw">52 kWh</div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+
+    <div class="column col-4">
+      <div class="card">
+        <h1 class="card-title">Stato di carica</h1>
+        <div class="battery">
+          <div [style.height.%]="percentuale" [style.backgroundColor]="colore" class="battery-charge"></div>
+        </div>
+        <div class="per">
+          <p>{{percentuale}}%</p>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
