@@ -6,65 +6,128 @@
   <div class="title">
     <h2>Bolletta</h2>
   </div>
-  <div class="bolletta">
-    <table>
-      <tr>
-        <th>Mese</th>
-        <th>Consumo</th>
-        <th>Costo</th>
-        <th>Azione</th>
-      </tr>
-      <tr>
-        <td>Aprile</td>
-        <td>165KwH</td>
-        <td>60,75 €</td>
-        <td>
-          <button mat-button> <mat-icon> download</mat-icon> </button>
-          <button mat-button ><mat-icon>credit_card</mat-icon></button>
-        </td>
-      </tr>
-      <tr>
-        <td>Marzo</td>
-        <td>167KwH</td>
-        <td>61,55 €</td>
-        <td>
-          <button mat-button> <mat-icon>download</mat-icon> </button>
-        </td>
-      </tr>
-      <tr>
-        <td>Febbraio</td>
-        <td>170KwH</td>
-        <td>62,80 €</td>
-        <td>
-          <button mat-button> <mat-icon>download</mat-icon> </button>
-        </td>
-      </tr>
-      <tr>
-        <td>Gennaio</td>
-        <td>176KwH</td>
-        <td>65,00 €</td>
-        <td>
-          <button mat-button> <mat-icon>download</mat-icon> </button>
-        </td>
-      </tr>
-      <tr>
-        <td>Dicembre</td>
-        <td>180KwH</td>
-        <td>66,60 €</td>
-        <td>
-          <button mat-button> <mat-icon>download</mat-icon> </button>
-        </td>
-      </tr>
-      <tr>
-        <td>Novembre</td>
-        <td>179KwH</td>
-        <td>66,50 €</td>
-        <td>
-          <button mat-button> <mat-icon>download</mat-icon> </button>
-        </td>
-      </tr>
-    </table>
-  </div>
+  <ng-container *ngIf="isProsumer">
+    <div class="bolletta">
+      <table>
+        <tr>
+          <th>Mese</th>
+          <th>Consumo</th>
+          <th>Costo</th>
+          <th>Azione</th>
+        </tr>
+        <tr>
+          <td>Aprile</td>
+          <td>161 KWh</td>
+          <td>11,25 €</td>
+          <td>
+            <button mat-button> <mat-icon> download</mat-icon> </button>
+            <button mat-button ><mat-icon>credit_card</mat-icon></button>
+          </td>
+        </tr>
+        <tr>
+          <td>Marzo</td>
+          <td>165 KWh</td>
+          <td>12,15 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Febbraio</td>
+          <td>180 KWh</td>
+          <td>13,50 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Gennaio</td>
+          <td>158 KWh</td>
+          <td>13,95 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Dicembre</td>
+          <td>176 KWh</td>
+          <td>15,30 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Novembre</td>
+          <td>179 KWh</td>
+          <td>13,87 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </ng-container>
+  <ng-container *ngIf="!isProsumer">
+    <div class="bolletta">
+      <table>
+        <tr>
+          <th>Mese</th>
+          <th>Consumo</th>
+          <th>Costo</th>
+          <th>Azione</th>
+        </tr>
+        <tr>
+          <td>Aprile</td>
+          <td>165 KWh</td>
+          <td>60,75 €</td>
+          <td>
+            <button mat-button> <mat-icon> download</mat-icon> </button>
+            <button mat-button ><mat-icon>credit_card</mat-icon></button>
+          </td>
+        </tr>
+        <tr>
+          <td>Marzo</td>
+          <td>167 KWh</td>
+          <td>61,55 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Febbraio</td>
+          <td>170 KWh</td>
+          <td>62,80 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Gennaio</td>
+          <td>176 KWh</td>
+          <td>65,00 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Dicembre</td>
+          <td>180 KWh</td>
+          <td>66,60 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Novembre</td>
+          <td>179 KWh</td>
+          <td>66,50 €</td>
+          <td>
+            <button mat-button> <mat-icon>download</mat-icon> </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </ng-container>
   <!-- <div class="button">
     <button mat-stroked-button color="#FFFFF">Paga</button>
     <button mat-stroked-button color="#FFFFF">Scarica</button>
