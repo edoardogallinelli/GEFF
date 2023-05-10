@@ -8,7 +8,7 @@
       "password": "12345678",
       "prosumer": false,
       "codiceSmartMeter": 1687568945461,
-      "mail": "m.rossi@gmail.com",
+      "mail": "m.rossi@geff.it",
       "dataIscrizione": "15/09/2022",
       "fotoProfilo": "https://st.depositphotos.com/1075946/4778/i/450/depositphotos_47780225-stock-photo-handsome-man-in-town.jpg"
     },
@@ -20,8 +20,8 @@
       "password": "12345678",
       "prosumer": true,
       "codiceSmartMeter": 1985546778541,
-      "mail": "l.grillo@gmail.com",
-      "dataIscrizione": "15/12/2022", 
+      "mail": "l.grillo@geff.it",
+      "dataIscrizione": "15/12/2022",
       "fotoProfilo": "https://st2.depositphotos.com/1003989/44419/i/600/depositphotos_444196500-stock-photo-isolated-female-person-portrait-smiling.jpg"
     }
   ],
