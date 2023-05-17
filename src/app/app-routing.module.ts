@@ -4,6 +4,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { HomeComponent } from './pages/home/home.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
 import { AreaUtenteComponent } from './pages/area-utente/area-utente.component';
+import { RingraziamentiComponent } from './pages/ringraziamenti/ringraziamenti.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'registration', component: RegistrationComponent},
   { path: 'area-utente', component: AreaUtenteComponent},
+  { path: 'app-ringraziamenti', component: RingraziamentiComponent},
   //fallback, qualsiasi path che non matcha con i precedenti riporta in home
   { path: '**', component: HomeComponent},
 ];

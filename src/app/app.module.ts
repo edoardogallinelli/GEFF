@@ -59,6 +59,7 @@ import { MenuAreaUtenteComponent } from './components/menu-area-utente/menu-area
 import { PanorimicaComunitaComponent } from './components/panorimica-comunita/panorimica-comunita.component';
 import { ContrattoComponent } from './components/contratto/contratto.component';
 import { BollettaComponent } from './components/bolletta/bolletta.component';
+import { RingraziamentiComponent } from './pages/ringraziamenti/ringraziamenti.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -75,7 +76,8 @@ import { BollettaComponent } from './components/bolletta/bolletta.component';
     MenuAreaUtenteComponent,
     PanorimicaComunitaComponent,
     ContrattoComponent,
-    BollettaComponent
+    BollettaComponent,
+    RingraziamentiComponent
   ],
   imports: [
     BrowserModule,
